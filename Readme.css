@@ -1,0 +1,126 @@
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+.fontTitle {
+    font-family: opensans, helvetica, arial, sans-serif;
+}
+
+nav {
+    text-align: center;
+    width: 100%;
+    height: 5em;
+    display: flex;
+    position: fixed;
+    background-color: #00aba7;
+    z-index: 99;
+
+}
+
+nav a {
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    font-family: Optima, sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+.contentblock {
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -15px;
+}
+a{
+    text-decoration: none;
+    color:#000000
+}
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.produtos li:hover {
+	border-color: #C78C19;
+
+}
+
+.produtos li:hover img {
+    transform: scale(1.2);	
+    opacity: 0.75;
+    transition: 1s;
+
+}
+
+.produtos li:active {
+	border-color: #088C19;	
+}
+
+.produtos li:hover h2 {
+	font-size: 34px;
+    
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto-descricao {
+	font-size: 18px;
+    margin-top: 15px;;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+body{
+	font-family:'Montserrat',sans-serif;
+}
+
+img{
+    width:110px;    
+}
+
+
+#coxinha{
+    margin-top:-15px;
+    margin-bottom: 10px;
+}
